@@ -6,7 +6,7 @@
 >
 > **This is not an official website, and it is not affiliated with, endorsed by, or commissioned by any real business.**
 >
-> I built it on my own time as a practice exercise to work on front-end layout, responsive design and CSS. The shop name, products, prices, deals, customer reviews and contact details on the page are **placeholder content used for design purposes only** — none of it should be treated as real or accurate. Nothing here is a live storefront: there is no checkout, no backend, and no data is collected or sent anywhere.
+> I built it on my own time as a practice exercise to work on front-end layout, responsive design and CSS. The shop name, products, prices, deals, customer reviews and contact details on the page are **placeholder content used for design purposes only**  Nothing here is a live storefront: there is no checkout, no backend, and no data is collected or sent anywhere.
 >
 > If you own the business referenced here and would like the content changed or the repository taken down, please open an issue and I'll remove it.
 
