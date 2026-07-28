@@ -1,5 +1,7 @@
 # Veritas Supermarket — Landing Page
 
+**Live demo → [veritas-super.netlify.app](https://veritas-super.netlify.app/)**
+
 > ### ⚠️ This is a personal test project
 >
 > **This is not an official website, and it is not affiliated with, endorsed by, or commissioned by any real business.**
@@ -46,10 +48,12 @@ Plain HTML, CSS and JavaScript. No frameworks, no build step, no dependencies �
 
 ## Running it
 
-No install needed — clone the repo and open `index.html` in a browser.
+The deployed version is at **[veritas-super.netlify.app](https://veritas-super.netlify.app/)** if you just want to look at it.
+
+To run it locally, no install is needed — clone the repo and open `index.html` in a browser.
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/hknixks/veritas.git
 cd veritas
 start index.html
 ```
