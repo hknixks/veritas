@@ -1,0 +1,15 @@
+# Archives / build bundles
+*.zip
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local tool config
+.claude/
+
+# Editor
+.vscode/
+.idea/
+*.swp

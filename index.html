@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Veritas Supermarket — Ikeja's trusted neighbourhood grocery store. Open 24 hours. Fresh produce, bakery, drinks, household goods and more on Allen Avenue.">
+<title>Veritas Supermarket — Allen Avenue, Ikeja | Open 24 Hours</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">Veritas<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#categories">Departments</a></li>
+      <li><a href="#deals">Weekly Deals</a></li>
+      <li><a href="#reviews">About</a></li>
+      <li><a href="#location">Contact</a></li>
+    </ul>
+    <a href="tel:+2348027011888" class="nav-call">📞 Call Now</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="#home" onclick="closeNav()">Home</a>
+  <a href="#products" onclick="closeNav()">Products</a>
+  <a href="#categories" onclick="closeNav()">Departments</a>
+  <a href="#deals" onclick="closeNav()">Weekly Deals</a>
+  <a href="#reviews" onclick="closeNav()">About</a>
+  <a href="#location" onclick="closeNav()">Contact</a>
+  <a href="tel:+2348027011888">📞 +234 802 701 1888</a>
+</div>
+
+<!-- HERO -->
+<div class="wrap hero" id="home">
+  <div class="hero-copy">
+    <div class="hero-badge"><span class="pulse"></span>Open Right Now — 24 Hours</div>
+    <h1>Groceries for<br>your <span class="under">whole week</span>,<br>whenever you shop.</h1>
+    <p class="lead">Fresh produce, pantry staples, drinks and household goods<br>stocked daily on Allen Avenue, Ikeja.</p>
+    <div class="hero-actions">
+      <a href="#products" class="btn-fill">Shop Groceries</a>
+      <a href="#deals" class="link-arrow">View Weekly Deals →</a>
+    </div>
+  
+  </div>
+  <div class="hero-visual">
+    <img class="hero-photo" src="https://images.unsplash.com/photo-1704713911962-409fa07a4a3a?fm=jpg&q=80&w=1200&auto=format&fit=crop" alt="A well-stocked supermarket aisle at Veritas Supermarket">
+    <div class="deal-float">
+      <div class="deal-float-eyebrow">🔥 Today's Deal</div>
+      <div class="deal-float-title">Kings Vegetable Oil, 5L</div>
+      <div class="deal-float-price">
+        <span class="deal-float-now">₦11,500</span>
+        <span class="deal-float-was">₦13,200</span>
+      </div>
+      <span class="deal-float-tag">Save 13% today</span>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section id="categories">
+  <div class="wrap">
+    <div class="section-head rv">
+      <div>
+        <div class="eyebrow">Departments</div>
+        <h2 class="title">Shop by category</h2>
+      </div>
+    </div>
+    <div class="cat-grid rv">
+      <a href="#products" class="cat-card cat-1">
+        <img src="https://images.unsplash.com/photo-1705928629040-c701a1e70531?fm=jpg&q=80&w=900&auto=format&fit=crop" alt="Fresh produce">
+        <div>
+          <div class="cat-label">Fresh Produce</div>
+          <div class="cat-count">Vegetables, fruit & herbs</div>
+        </div>
+      </a>
+      <a href="#products" class="cat-card cat-2">
+        <img src="https://images.unsplash.com/photo-1780644804493-6ac6238e7ecf?fm=jpg&q=80&w=900&auto=format&fit=crop" alt="Bakery bread">
+        <div>
+          <div class="cat-label">Bakery</div>
+          <div class="cat-count">Bread & pastries</div>
+        </div>
+      </a>
+      <a href="#products" class="cat-card cat-3 no-photo" style="background:linear-gradient(135deg,#8B3A2A,#B0492F);">
+        <span class="cat-icon">🐟</span>
+        <div>
+          <div class="cat-label">Meat & Fish</div>
+          <div class="cat-count">Fresh & frozen</div>
+        </div>
+      </a>
+      <a href="#products" class="cat-card cat-4 no-photo" style="background:linear-gradient(135deg,#1B5A7A,#256E93);">
+        <span class="cat-icon">🥤</span>
+        <div>
+          <div class="cat-label">Drinks</div>
+          <div class="cat-count">Soft drinks & juice</div>
+        </div>
+      </a>
+      <a href="#products" class="cat-card cat-5 no-photo" style="background:linear-gradient(135deg,#7A5C1B,#96712A);">
+        <span class="cat-icon">🧺</span>
+        <div>
+          <div class="cat-label">Household</div>
+          <div class="cat-count">Cleaning & supplies</div>
+        </div>
+      </a>
+      <a href="#products" class="cat-card cat-6 no-photo" style="background:linear-gradient(135deg,#5C3D8A,#71499E);">
+        <span class="cat-icon">🍫</span>
+        <div>
+          <div class="cat-label">Snacks</div>
+          <div class="cat-count">Biscuits & packaged foods</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section id="products" style="background:var(--paper); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head rv">
+      <div>
+        <div class="eyebrow">This Week</div>
+        <h2 class="title">Featured products</h2>
+      </div>
+    </div>
+    <div class="prod-grid rv">
+      <div class="prod-card">
+        <span class="prod-badge">-15%</span>
+        <div class="prod-img" style="background:#EFE6D8;">🍚</div>
+        <div class="prod-body">
+          <div class="prod-name">Golden Sella Rice</div>
+          <div class="prod-unit">50kg bag</div>
+          <div class="prod-price-row">
+            <div class="prod-price"><span class="prod-now">₦58,000</span><span class="prod-was">₦68,000</span></div>
+            <button class="prod-add" onclick="addToCart(this)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="prod-card">
+        <div class="prod-img" style="background:#E9EFE3;">🍅</div>
+        <div class="prod-body">
+          <div class="prod-name">Fresh Tomatoes</div>
+          <div class="prod-unit">1 basket</div>
+          <div class="prod-price-row">
+            <div class="prod-price"><span class="prod-now">₦4,200</span></div>
+            <button class="prod-add" onclick="addToCart(this)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="prod-card">
+        <span class="prod-badge">-10%</span>
+        <div class="prod-img" style="background:#F3E9DD;">🍞</div>
+        <div class="prod-body">
+          <div class="prod-name">Agege Bread, Large</div>
+          <div class="prod-unit">700g loaf</div>
+          <div class="prod-price-row">
+            <div class="prod-price"><span class="prod-now">₦1,350</span><span class="prod-was">₦1,500</span></div>
+            <button class="prod-add" onclick="addToCart(this)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="prod-card">
+        <div class="prod-img" style="background:#E4EEF3;">🥤</div>
+        <div class="prod-body">
+          <div class="prod-name">Coca-Cola, 6-Pack</div>
+          <div class="prod-unit">35cl bottles</div>
+          <div class="prod-price-row">
+            <div class="prod-price"><span class="prod-now">₦2,700</span></div>
+            <button class="prod-add" onclick="addToCart(this)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="prod-card">
+        <span class="prod-badge">-8%</span>
+        <div class="prod-img" style="background:#EFE9DD;">🧴</div>
+        <div class="prod-body">
+          <div class="prod-name">Kings Vegetable Oil</div>
+          <div class="prod-unit">5 litre</div>
+          <div class="prod-price-row">
+            <div class="prod-price"><span class="prod-now">₦11,500</span><span class="prod-was">₦13,200</span></div>
+            <button class="prod-add" onclick="addToCart(this)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="prod-card">
+        <div class="prod-img" style="background:#EEE7F2;">🧼</div>
+        <div class="prod-body">
+          <div class="prod-name">Omo Detergent</div>
+          <div class="prod-unit">900g</div>
+          <div class="prod-price-row">
+            <div class="prod-price"><span class="prod-now">₦2,100</span></div>
+            <button class="prod-add" onclick="addToCart(this)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="prod-card">
+        <div class="prod-img" style="background:#F2EADD;">🐔</div>
+        <div class="prod-body">
+          <div class="prod-name">Whole Chicken</div>
+          <div class="prod-unit">Fresh, per kg</div>
+          <div class="prod-price-row">
+            <div class="prod-price"><span class="prod-now">₦4,800</span></div>
+            <button class="prod-add" onclick="addToCart(this)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="prod-card">
+        <span class="prod-badge">-12%</span>
+        <div class="prod-img" style="background:#F0E4DD;">🍫</div>
+        <div class="prod-body">
+          <div class="prod-name">Cadbury Bournvita</div>
+          <div class="prod-unit">500g tin</div>
+          <div class="prod-price-row">
+            <div class="prod-price"><span class="prod-now">₦3,900</span><span class="prod-was">₦4,450</span></div>
+            <button class="prod-add" onclick="addToCart(this)">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WEEKLY DEALS BANNER -->
+<section id="deals">
+  <div class="wrap">
+    <div class="deals-banner rv">
+      <div>
+        <div class="deals-eyebrow">This Week's Offers</div>
+        <h3>Stock up and save. New goods every Monday.</h3>
+        <p>Prices confirmed in-store. Call ahead if you want us to set something aside for you.</p>
+        <a href="tel:+2348027011888" class="btn-fill" style="background:var(--orange);">Ask About This Week's Deals</a>
+      </div>
+      <div class="deals-list">
+        <div class="deals-list-item">
+          <div><div class="deals-list-name">Cooking Oil Bundle</div><div class="deals-list-sub">Buy 2 x 5L, save more</div></div>
+          <div class="deals-list-pct">-13%</div>
+        </div>
+        <div class="deals-list-item">
+          <div><div class="deals-list-name">Household Essentials Pack</div><div class="deals-list-sub">Detergent + disinfectant + mop</div></div>
+          <div class="deals-list-pct">-18%</div>
+        </div>
+        <div class="deals-list-item">
+          <div><div class="deals-list-name">Beverage Crate Deal</div><div class="deals-list-sub">Soft drinks, mixed crates</div></div>
+          <div class="deals-list-pct">-10%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section style="background:var(--paper); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head rv">
+      <div>
+        <div class="eyebrow">Why Veritas</div>
+        <h2 class="title">Shopping made simple</h2>
+      </div>
+    </div>
+    <div class="why-grid rv">
+      <div class="why-card">
+        <div class="why-icon">🕐</div>
+        <h4>Open 24 Hours</h4>
+        <p>Day shift or night shift<br>the doors are always open, every day of the year.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🛒</div>
+        <h4>One-Stop Shopping</h4>
+        <p>Groceries, drinks, toiletries and cleaning supplies in one trip. No need to visit three different shops.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">✅</div>
+        <h4>Genuine Products</h4>
+        <p>Every item on our shelves is sourced and checked. Local favourites and trusted imported brands, side by side.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">😊</div>
+        <h4>Friendly Staff</h4>
+        <p>Our staff knows the store inside out and is always ready to help you find what you came for.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📍</div>
+        <h4>Easy to Reach</h4>
+        <p>Right on Allen Avenue, one of Ikeja's busiest streets </p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💳</div>
+        <h4>Flexible Payment</h4>
+        <p>Cash, card or transfer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="section-head rv">
+      <div>
+        <div class="eyebrow">Customer Reviews</div>
+        <h2 class="title">What Ikeja says about us</h2>
+      </div>
+    </div>
+    <div class="test-grid rv">
+      <div class="test-card featured">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-text">"I work night shifts and used to struggle to find anywhere open after midnight. Veritas changed that completely — clean store, fair prices, and the staff actually remember my order."</p>
+        <div class="test-person">
+          <img class="test-avatar" src="https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?fm=jpg&q=80&w=200&auto=format&fit=crop" alt="Tunde B.">
+          <div>
+            <div class="test-name">Tunde B.</div>
+            <div class="test-role">Security professional, Ikeja</div>
+          </div>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-text">"The variety is what keeps me coming back — I find both local and imported items without driving across town. Prices are posted clearly too, no surprises at the till."</p>
+        <div class="test-person">
+          <img class="test-avatar" src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?fm=jpg&q=80&w=200&auto=format&fit=crop" alt="Amaka O.">
+          <div>
+            <div class="test-name">Amaka O.</div>
+            <div class="test-role">Resident, GRA Ikeja</div>
+          </div>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="test-stars">★★★★☆</div>
+        <p class="test-text">"Great selection of household items and produce. It's become our family's regular weekly shop — quick in, quick out, everything on the list."</p>
+        <div class="test-person">
+          <img class="test-avatar" src="https://images.unsplash.com/photo-1612299320930-31e3506614df?fm=jpg&q=80&w=200&auto=format&fit=crop" alt="Chidi A.">
+          <div>
+            <div class="test-name">Chidi A.</div>
+            <div class="test-role">Father of three, Alausa</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location" style="background:var(--paper); border-top:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head rv">
+      <div>
+        <div class="eyebrow">Find Us</div>
+        <h2 class="title">Come visit, anytime</h2>
+      </div>
+    </div>
+    <div class="loc-wrap rv">
+      <div class="loc-info">
+        <div class="loc-row">
+          <div class="loc-icon">📍</div>
+          <div><div class="loc-label">Address</div><div class="loc-value">15 Allen Avenue, Ikeja</div><div class="loc-sub">Lagos State, Nigeria</div></div>
+        </div>
+        <div class="loc-row">
+          <div class="loc-icon">📞</div>
+          <div><div class="loc-label">Phone</div><div class="loc-value"><a href="tel:+2348027011888" style="text-decoration:none;color:inherit;">+234 802 701 1888</a></div><div class="loc-sub">Tap to call directly</div></div>
+        </div>
+        <div class="loc-row">
+          <div class="loc-icon">🕐</div>
+          <div><div class="loc-label">Hours</div><div class="loc-value">Open 24 Hours</div><div class="loc-sub">Every day, including public holidays</div></div>
+        </div>
+        <div style="margin-top:22px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="https://maps.google.com/?q=15+Allen+Avenue+Ikeja+Lagos" target="_blank" rel="noopener" class="btn-fill">Get Directions</a>
+          <a href="tel:+2348027011888" class="link-arrow">Call the store →</a>
+        </div>
+      </div>
+      <div class="loc-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5517843290624!2d3.343!3d6.6018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9228a9b1e16b%3A0x30a03b8b6c37b3f0!2sAllen+Ave%2C+Ikeja%2C+Lagos!5e0!3m2!1sen!2sng!4v1700000000000!5m2!1sen!2sng" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Veritas Supermarket location"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="news-strip rv">
+      <div>
+        <h4>Get this week's deals by email</h4>
+        <p>One email a week. No spam, just prices worth knowing about.</p>
+      </div>
+      <div class="news-form">
+        <input type="email" class="news-input" placeholder="Your email address" id="newsEmail">
+        <button class="news-btn" onclick="subscribe()">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">Veritas<span class="dot">.</span></div>
+        <p class="foot-desc">Your trusted neighbourhood supermarket on Allen Avenue, Ikeja. Open 24 hours a day, every day — because life doesn't keep business hours.</p>
+        <div class="foot-social">
+          <button class="fsoc" title="Facebook">📘</button>
+          <button class="fsoc" title="Instagram">📸</button>
+          <button class="fsoc" onclick="window.open('https://wa.me/2348027011888')" title="WhatsApp">💬</button>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Departments</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#deals">Weekly Deals</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#location">Contact</a></li>
+          <li><a href="tel:+2348027011888">Call Us</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Store Hours</h5>
+        <ul>
+          <li>Open 24 hours</li>
+          <li>Every day of the week</li>
+          <li>Including public holidays</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2025 Veritas Supermarket. Ikeja, Lagos, Nigeria.</span>
+      <span>15 Allen Avenue, Ikeja</span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+2348027011888" class="float-call">📞 Call Us Now</a>
+
+<script src="script.js"></script>
+</body>
+</html>
