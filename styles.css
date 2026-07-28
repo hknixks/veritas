@@ -12,8 +12,8 @@
     --charcoal-soft: #55504A;
     --line: #E4DDD0;
     --line-soft: #EEE8DC;
-    --ff-head: 'Fraunces', Georgia, serif;
-    --ff-body: 'Work Sans', sans-serif;
+    --ff-head: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --ff-body: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
   }
 
   * { box-sizing: border-box; }
