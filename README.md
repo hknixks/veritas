@@ -68,7 +68,7 @@ python -m http.server 8000
 
 Since this is a practice build, a few things are deliberately unfinished:
 
-- The cart button is a visual effect only — there's no cart, no state, no checkout.
+- The cart button is a visual effect only.
 - The newsletter form doesn't submit anywhere; the email is validated loosely in the browser and discarded.
 - Product photography is stand-in imagery from Unsplash plus emoji placeholders.
 
