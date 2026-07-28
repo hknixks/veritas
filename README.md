@@ -74,4 +74,4 @@ Since this is a practice build, a few things are deliberately unfinished:
 
 ## Licence
 
-Shared for reference and learning. The placeholder business details in the content are not mine to license — see the notice at the top.
+Shared for reference and learning. The placeholder business details in the content are not mine to license. see the notice at the top.
