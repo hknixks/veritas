@@ -1,4 +1,4 @@
-# Veritas Supermarket — Landing Page
+# Veritas Supermarket (Landing Page)
 
 **Live demo → [veritas-super.netlify.app](https://veritas-super.netlify.app/)**
 
